@@ -1,6 +1,6 @@
 ## warcraftcn/ui
 
-Warcraft-themed UI components for your Next.js applications. Free. Open Source.
+Warcraft-themed UI components. Free. Open Source.
 
 Visit [warcraftcn.com](https://warcraftcn.com/)
 
