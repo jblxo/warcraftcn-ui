@@ -20,15 +20,17 @@ export const getPackage = async (packageName: string) => {
 
   // Read file contents for each file in the package
   const filesWithContent = await Promise.all(
-    packageItem.files.map(async (file: RegistryItem["files"][0]) => {
-      const filePath = join(process.cwd(), file.path);
-      const content = await fs.readFile(filePath, "utf-8");
+    packageItem.files.map(
+      async (file: NonNullable<RegistryItem["files"]>[number]) => {
+        const filePath = join(process.cwd(), file.path);
+        const content = await fs.readFile(filePath, "utf-8");
 
-      return {
-        ...file,
-        content,
-      };
-    })
+        return {
+          ...file,
+          content,
+        };
+      }
+    )
   );
 
   // Return the package with file contents
