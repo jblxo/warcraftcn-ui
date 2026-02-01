@@ -31,6 +31,30 @@
           "target": "components/ui/warcraftcn/assets/button-bg-with-frame.png"
         }
       ]
+    },
+    {
+      "name": "input",
+      "type": "registry:component",
+      "title": "Warcraft Input",
+      "description": "A simple 8-bit input component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/ui/warcraftcn/input.tsx",
+          "type": "registry:component",
+          "target": "components/ui/warcraftcn/input.tsx"
+        },
+        {
+          "path": "components/ui/warcraftcn/styles/warcraft.css",
+          "type": "registry:component",
+          "target": "components/ui/warcraftcn/styles/warcraft.css"
+        },
+        {
+          "path": "components/ui/warcraftcn/assets/input-frame.png",
+          "type": "registry:asset",
+          "target": "components/ui/warcraftcn/assets/input-frame.png"
+        }
+      ]
     }
   ]
 }
