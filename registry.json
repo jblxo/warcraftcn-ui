@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "warcraftcn",
+  "homepage": "https://warcraftcn.com",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:component",
+      "title": "Warcraft Button",
+      "description": "A simple 8-bit button component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/ui/warcraftcn/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/warcraftcn/button.tsx"
+        },
+        {
+          "path": "components/ui/warcraftcn/styles/warcraft.css",
+          "type": "registry:component",
+          "target": "components/ui/warcraftcn/styles/warcraft.css"
+        },
+        {
+          "path": "components/ui/warcraftcn/assets/bg.png",
+          "type": "registry:asset",
+          "target": "components/ui/warcraftcn/assets/bg.png"
+        },
+        {
+          "path": "components/ui/warcraftcn/assets/bg-with-frame.png",
+          "type": "registry:asset",
+          "target": "components/ui/warcraftcn/assets/bg-with-frame.png"
+        }
+      ]
+    }
+  ]
+}
