@@ -4,10 +4,10 @@ import type * as React from "react";
 
 import { cn } from "@/lib/utils";
 
-import bgImage from "./assets/button-bg.png";
-import bgWithFrameImage from "./assets/button-bg-with-frame.png";
+import bgImage from "./assets/button-bg.webp";
+import bgWithFrameImage from "./assets/button-bg-with-frame.webp";
 import bgWithFrameImageSm from "./assets/button-bg-with-frame-sm.png";
-import bgImageSm from "./assets/button-bg-sm.png";
+import bgImageSm from "./assets/button-bg-sm.webp";
 
 import "@/components/ui/warcraftcn/styles/warcraft.css";
 

@@ -3,7 +3,7 @@ import * as React from "react"
 import { cn } from "@/lib/utils"
 
 import "@/components/ui/warcraftcn/styles/warcraft.css";
-import bgImage from "./assets/card-bg.png";
+import bgImage from "./assets/card-bg.webp";
 
 function Card({
   className,

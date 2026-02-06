@@ -21,24 +21,24 @@
           "target": "components/ui/warcraftcn/styles/warcraft.css"
         },
         {
-          "path": "components/ui/warcraftcn/assets/button-bg.png",
+          "path": "components/ui/warcraftcn/assets/button-bg.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/button-bg.png"
+          "target": "components/ui/warcraftcn/assets/button-bg.webp"
         },
         {
-          "path": "components/ui/warcraftcn/assets/button-bg-with-frame.png",
+          "path": "components/ui/warcraftcn/assets/button-bg-with-frame.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/button-bg-with-frame.png"
+          "target": "components/ui/warcraftcn/assets/button-bg-with-frame.webp"
         },
         {
-          "path": "components/ui/warcraftcn/assets/button-bg-with-frame-sm.png",
+          "path": "components/ui/warcraftcn/assets/button-bg-with-frame-sm.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/button-bg-with-frame-sm.png"
+          "target": "components/ui/warcraftcn/assets/button-bg-with-frame-sm.webp"
         },
         {
-          "path": "components/ui/warcraftcn/assets/button-bg-sm.png",
+          "path": "components/ui/warcraftcn/assets/button-bg-sm.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/button-bg-sm.png"
+          "target": "components/ui/warcraftcn/assets/button-bg-sm.webp"
         }
       ]
     },
@@ -60,9 +60,9 @@
           "target": "components/ui/warcraftcn/styles/warcraft.css"
         },
         {
-          "path": "components/ui/warcraftcn/assets/input-frame.png",
+          "path": "components/ui/warcraftcn/assets/input-frame.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/input-frame.png"
+          "target": "components/ui/warcraftcn/assets/input-frame.webp"
         }
       ]
     },
@@ -84,9 +84,9 @@
           "target": "components/ui/warcraftcn/styles/warcraft.css"
         },
         {
-          "path": "components/ui/warcraftcn/assets/card-bg.png",
+          "path": "components/ui/warcraftcn/assets/card-bg.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/card-bg.png"
+          "target": "components/ui/warcraftcn/assets/card-bg.webp"
         }
       ]
     }

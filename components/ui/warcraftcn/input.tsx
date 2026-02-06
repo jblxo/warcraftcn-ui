@@ -2,7 +2,7 @@ import type * as React from "react";
 
 import { cn } from "@/lib/utils";
 
-import frameImage from "./assets/input-frame.png";
+import frameImage from "./assets/input-frame.webp";
 import "@/components/ui/warcraftcn/styles/warcraft.css";
 
 function Input({ className, type, ...props }: React.ComponentProps<"input">) {
