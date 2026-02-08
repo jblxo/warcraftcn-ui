@@ -12,19 +12,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-center bg-cover bg-no-repeat text-white shadow-lg transition-shadow hover:shadow-xl hover:brightness-110",
+          "bg-center px-5 py-4 bg-cover bg-no-repeat text-white shadow-lg transition-shadow hover:shadow-xl hover:brightness-110",
         frame:
           "bg-center bg-cover bg-no-repeat text-white shadow-lg transition-shadow hover:shadow-xl hover:brightness-110",
-      },
-      size: {
-        default: "",
-        sm: "",
-        lg: "",
       },
     },
     defaultVariants: {
       variant: "default",
-      size: "default",
     },
   }
 );
@@ -34,36 +28,23 @@ function Button({
   variant,
   asChild = false,
   style,
-  size,
   ...props
 }: React.ComponentProps<"button"> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean;
   }) {
   const Comp = asChild ? Slot : "button";
-  const bgClass =
+  const borderImageClass =
     variant === "frame"
-      ? size === "sm"
-        ? "wc-btn-bg-frame-sm"
-        : "wc-btn-bg-frame"
-      : size === "sm"
-      ? "wc-btn-bg-sm"
-      : "wc-btn-bg";
-
-  const sizeClass = () => {
-
-    if(variant === "frame") {
-      return size === "sm" ? "w-80 h-26" : "w-120 h-24";
-    }
-    return size === "sm" ? "w-60 h-17" : "w-104 h-16";
-  }
+      ? "[border-image-source:url('/warcraftcn/button-bg-with-frame.webp')]"
+      : "[border-image-source:url('/warcraftcn/button-bg.webp')]";
 
   return(
     <Comp
       className={cn(
-        buttonVariants({ variant, size }),
-        bgClass,
-        sizeClass(),
+        buttonVariants({ variant }),
+        "border-solid [border-image-repeat:stretch] border-5 [border-image-slice:16_fill]",
+        borderImageClass,
         className
       )}
       style={style}

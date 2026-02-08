@@ -41,9 +41,7 @@ export default function Home() {
         </CardContent>
         <CardFooter className="flex items-center justify-center">
           <Link href="/docs">
-            <Button className="text-xl" size="sm">
-              Get Started
-            </Button>
+            <Button className="px-10 text-xl">Get Started</Button>
           </Link>
         </CardFooter>
       </Card>
