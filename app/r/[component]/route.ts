@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { type NextRequest, NextResponse } from "next/server";
+
 import { getAllPackageNames, getPackage } from "@/lib/package";
 
 interface RegistryParams {
@@ -12,7 +13,7 @@ export const GET = async (_: NextRequest, { params }: RegistryParams) => {
   if (!component.endsWith(".json")) {
     return NextResponse.json(
       { error: "Component must end with .json" },
-      { status: 400 },
+      { status: 400 }
     );
   }
 
