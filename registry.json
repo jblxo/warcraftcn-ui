@@ -127,9 +127,14 @@
           "target": "components/ui/warcraftcn/styles/warcraft.css"
         },
         {
-          "path": "components/ui/warcraftcn/assets/badge-bg.webp",
+          "path": "components/ui/warcraftcn/assets/button-bg-with-frame.webp",
           "type": "registry:file",
-          "target": "components/ui/warcraftcn/assets/badge-bg.webp"
+          "target": "components/ui/warcraftcn/assets/button-bg-with-frame.webp"
+        },
+        {
+          "path": "components/ui/warcraftcn/assets/button-bg.webp",
+          "type": "registry:file",
+          "target": "components/ui/warcraftcn/assets/button-bg.webp"
         }
       ]
     },
