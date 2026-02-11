@@ -36,7 +36,7 @@
 }
 
 .wc-textarea-border {
-  border-image-source: url("https://warcraftcn.com/warcraftcn/textarea-frame.webp");
+  border-image-source: url("https://warcraftcn.com/warcraftcn/textarea-bg.webp");
 }
 
 /* Legacy background-image classes (kept for compatibility) */
