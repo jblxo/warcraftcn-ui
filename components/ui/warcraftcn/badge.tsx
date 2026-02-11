@@ -12,11 +12,11 @@ const badgeVariants = cva(
     variants: {
       variant: {
         default:
-          "text-amber-100 [text-shadow:0_0_8px_rgba(251,191,36,0.4)] [border-image-source:url('/warcraftcn/button-bg-with-frame.webp')] [border-image-slice:16_fill]",
+          "text-amber-100 [text-shadow:0_0_8px_rgba(251,191,36,0.4)] wc-btn-border-frame [border-image-slice:16_fill]",
         secondary:
-          "text-slate-200 [border-image-source:url('/warcraftcn/button-bg.webp')] [border-image-slice:16_fill]",
+          "text-slate-200 wc-btn-border [border-image-slice:16_fill]",
         destructive:
-          "text-red-200 [text-shadow:0_0_8px_rgba(239,68,68,0.4)] [border-image-source:url('/warcraftcn/button-bg-with-frame.webp')] brightness-75 hue-rotate-[320deg] [border-image-slice:16_fill]",
+          "text-red-200 [text-shadow:0_0_8px_rgba(239,68,68,0.4)] wc-btn-border-frame brightness-75 hue-rotate-[320deg] [border-image-slice:16_fill]",
         outline:
           "border-amber-900/50 bg-black/40 text-amber-200/80 hover:bg-black/60",
       },

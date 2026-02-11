@@ -6,40 +6,46 @@
   letter-spacing: 0.5px;
 }
 
+/* Border-image classes for responsive frames */
+.wc-btn-border {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/button-bg.webp");
+}
+
+.wc-btn-border-sm {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/button-bg-sm.webp");
+}
+
+.wc-btn-border-frame {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/button-bg-with-frame.webp");
+}
+
+.wc-btn-border-frame-sm {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/button-bg-with-frame-sm.webp");
+}
+
+.wc-card-border {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/card-bg.webp");
+}
+
+.wc-input-border {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/input-frame.webp");
+}
+
+.wc-dropdown-border {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/dropdown-menu-bg.webp");
+}
+
+.wc-textarea-border {
+  border-image-source: url("https://warcraftcn.com/warcraftcn/textarea-frame.webp");
+}
+
+/* Legacy background-image classes (kept for compatibility) */
 .wc-btn-bg {
   background-image: url("https://warcraftcn.com/warcraftcn/button-bg.webp");
 }
 
-.wc-btn-bg-sm {
-  background-image: url("https://warcraftcn.com/warcraftcn/button-bg-sm.webp");
-}
-
-.wc-btn-bg-frame {
-  background-image: url("https://warcraftcn.com/warcraftcn/button-bg-with-frame.webp");
-}
-
-.wc-btn-bg-frame-sm {
-  background-image: url("https://warcraftcn.com/warcraftcn/button-bg-with-frame-sm.webp");
-}
-
 .wc-card-bg {
   background-image: url("https://warcraftcn.com/warcraftcn/card-bg.webp");
-}
-
-.wc-input-bg {
-  background-image: url("https://warcraftcn.com/warcraftcn/input-frame.webp");
-}
-
-.wc-dropdown-bg {
-  background-image: url("https://warcraftcn.com/warcraftcn/dropdown-menu-bg.webp");
-}
-
-.wc-textarea-bg {
-  background-image: url("https://warcraftcn.com/warcraftcn/textarea-bg.webp");
-}
-
-.wc-dropdown-menu-bg {
-  background-image: url("https://warcraftcn.com/warcraftcn/dropdown-menu-bg.webp");
 }
 
 /* ============================================

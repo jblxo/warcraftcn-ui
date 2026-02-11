@@ -35,11 +35,9 @@ function Button({
   }) {
   const Comp = asChild ? Slot : "button";
   const borderImageClass =
-    variant === "frame"
-      ? "[border-image-source:url('/warcraftcn/button-bg-with-frame.webp')]"
-      : "[border-image-source:url('/warcraftcn/button-bg.webp')]";
+    variant === "frame" ? "wc-btn-border-frame" : "wc-btn-border";
 
-  return(
+  return (
     <Comp
       className={cn(
         buttonVariants({ variant }),
