@@ -407,15 +407,20 @@
 @media (prefers-reduced-motion: reduce) {
   .wc-spinner-wrap,
   .wc-spinner-core,
-  .wc-spinner-glow {
+  .wc-spinner-glow,
+  .dark .wc-spinner-wrap,
+  .dark .wc-spinner-core,
+  .dark .wc-spinner-glow {
     animation: none;
   }
 
-  .wc-spinner-core {
+  .wc-spinner-core,
+  .dark .wc-spinner-core {
     opacity: 1;
   }
 
-  .wc-spinner-glow {
+  .wc-spinner-glow,
+  .dark .wc-spinner-glow {
     opacity: 0.35;
   }
 
