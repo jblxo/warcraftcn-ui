@@ -1,4 +1,4 @@
-import * as React from "react";
+import type * as React from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -10,6 +10,7 @@ const SPINNER_CENTER_X = 107.607415;
 const SPINNER_CENTER_Y = 182.916484;
 const SPINNER_STATIC_TRANSFORM = `translate(${SPINNER_CENTER_X} ${SPINNER_CENTER_Y}) rotate(-2) translate(${-SPINNER_CENTER_X} ${-SPINNER_CENTER_Y})`;
 
+/** Renders the Warcraft-themed summoning glyph loading spinner. */
 function Spinner({ className, ...props }: React.ComponentProps<"svg">) {
   return (
     <svg
