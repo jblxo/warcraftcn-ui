@@ -2,13 +2,20 @@
   "title": "Components",
   "pages": [
     "index",
+    "avatar",
     "badge",
     "button",
     "card",
+    "checkbox",
+    "cursor",
     "dropdown-menu",
     "input",
+    "label",
+    "pagination",
+    "radio-group",
     "skeleton",
     "spinner",
-    "textarea"
+    "textarea",
+    "tooltip"
   ]
 }
